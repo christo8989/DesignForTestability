@@ -1,0 +1,15 @@
+﻿
+Program
+  - Not any at the moment
+
+Yucky
+  -	ArgumentException is based on two parameters. What if a new enum type is added and expects filter to have a value?
+  - The query string is hard coded into the method
+  - retryCount is hard coded into the method.
+  - while(true) relies on the try catch. The catch shouldn't dictate this kind of logic. Not sure what's wrong but it feels wrong.
+  - Shouldn't the reader return a list of Employees. 
+
+Employee is good.
+FakeSql is good (of course the query is bogus and all that).
+
+
